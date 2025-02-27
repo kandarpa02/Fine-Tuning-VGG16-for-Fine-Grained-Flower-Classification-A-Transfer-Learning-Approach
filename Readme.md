@@ -28,11 +28,12 @@ This project fine-tunes VGG16, a deep convolutional neural network, to classify 
     python classifier.py <batch_index>
 
 
-🧩 **Dataset - Flowers102**
+🧩 Dataset - Flowers102
 
     📚 102 Classes — Each representing a different flower species.
     🖼️ 8189 Images Total
-    📥 Official Source: [Flowers102-Oxford](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
+
+📥 Official Source: https://www.robots.ox.ac.uk/~vgg/data/flowers/102/
 
 
 🏗️ **Model Architecture - VGG16**

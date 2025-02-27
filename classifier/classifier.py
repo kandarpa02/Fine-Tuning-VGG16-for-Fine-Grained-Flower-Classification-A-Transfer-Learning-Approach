@@ -122,7 +122,7 @@ model = FINETUNE_VGG()
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 current_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.abspath(os.path.join(current_dir, '..'))
-model_path = os.path.join(project_root, 'Fine-Tuning-VGG16-for-Fine-Grained-Flower-Classification-A-Transfer-Learning-Approach/classifier', 'model', 'model.pth')
+model_path = os.path.join(project_root, 'classifier', 'model', 'model.pth')
 
 if not os.path.exists(model_path):
     raise FileNotFoundError(f"Model file not found at {model_path}")
